@@ -15,7 +15,6 @@ coroutines = "1.6.4"
 hilt = "2.46"
 junit = "4.13.2"
 kotlin = "1.8.20"
-ksp = "1.8.20-1.0.11"
 timber = "5.0.1"
 mockk = "1.13.4"
 ktlint = "0.49.1"
@@ -75,7 +74,5 @@ android-application = { id = "com.android.application", version.ref = "androidGr
 android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
 hilt-gradle = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
-ktlint = { id = "com.pinterest.ktlint", version.ref = "ktlint" }
 
