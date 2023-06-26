@@ -16,10 +16,12 @@
 
 @Suppress("DSL_SCOPE_VIOLATION") // Remove when fixed https://youtrack.jetbrains.com/issue/KTIJ-19369
 plugins {
+    // Start Copy
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.kapt)
     alias(libs.plugins.hilt.gradle)
+    // End Copy
 }
 
 android {
@@ -47,6 +49,7 @@ android {
     }
 
     // Make sure JDK is set to 17
+    // Start Copy
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -57,12 +60,15 @@ android {
     }
 
     buildFeatures {
+        // don't use "=" for groovy
         compose = true
     }
 
     composeOptions {
+        // dont use "=" for groovy
         kotlinCompilerExtensionVersion = libs.versions.androidxComposeCompiler.get()
     }
+    //End Copy
 
     packagingOptions {
         resources {
@@ -72,7 +78,7 @@ android {
 }
 
 dependencies {
-
+    // Start Copy
     val composeBom = platform(libs.androidx.compose.bom)
     implementation(composeBom)
     androidTestImplementation(composeBom)
@@ -128,4 +134,6 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     androidTestImplementation(libs.hilt.android.testing)
     kaptAndroidTest(libs.hilt.android.compiler)
+
+    // End Copy
 }
