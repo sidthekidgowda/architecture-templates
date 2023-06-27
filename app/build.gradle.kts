@@ -111,6 +111,7 @@ dependencies {
     implementation(libs.square.moshi)
     implementation(libs.square.moshi.kotlin)
     implementation(libs.square.okhttp3.okhttp)
+    implementation(libs.square.retrofit.converter.moshi)
     implementation(libs.square.retrofit2.retrofit)
     implementation(libs.square.okhttp.loggingInterceptor)
     debugImplementation(libs.square.leakcanary.android)
