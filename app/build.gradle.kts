@@ -108,6 +108,7 @@ dependencies {
     implementation(libs.androidx.room.ktx)
 
     // Square - retrofit, okhttp, leakcanary
+    implementation(libs.square.moshi)
     implementation(libs.square.moshi.kotlin)
     implementation(libs.square.okhttp3.okhttp)
     implementation(libs.square.retrofit2.retrofit)
