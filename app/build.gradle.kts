@@ -138,4 +138,62 @@ dependencies {
     kaptAndroidTest(libs.hilt.android.compiler)
 
     // End Copy
+
+
+    // Start copy groovy
+//    implementation platform(libs.androidx.compose.bom)
+//    // Compose
+//    implementation(libs.androidx.compose.ui)
+//    implementation(libs.androidx.compose.ui.tooling.preview)
+//    implementation(libs.androidx.compose.material3)
+//    // Compose Tooling
+//    debugImplementation(libs.androidx.compose.ui.tooling)
+//    debugImplementation(libs.androidx.compose.ui.test.manifest)
+//
+//    // Core Android dependencies
+//    implementation(libs.androidx.core.ktx)
+//    implementation(libs.androidx.lifecycle.runtime.ktx)
+//    implementation(libs.androidx.activity.compose)
+//
+//    // Hilt Dependency Injection
+//    implementation(libs.hilt.android)
+//    kapt(libs.hilt.compiler)
+//
+//    // Arch Components
+//    implementation(libs.androidx.lifecycle.runtime.compose)
+//    implementation(libs.androidx.lifecycle.viewmodel.compose)
+//    implementation(libs.androidx.navigation.compose)
+//    implementation(libs.androidx.hilt.navigation.compose)
+//    implementation(libs.androidx.room.runtime)
+//    implementation(libs.androidx.room.ktx)
+//
+//    // Square - retrofit, okhttp, leakcanary
+//    implementation(libs.square.moshi.kotlin)
+//    implementation(libs.square.okhttp3.okhttp)
+//    implementation(libs.square.retrofit2.retrofit)
+//    implementation(libs.square.okhttp.loggingInterceptor)
+//    debugImplementation(libs.square.leakcanary.android)
+//
+//    // Logging
+//    implementation(libs.jakewharton.timber.logging)
+//
+//    // Local tests
+//    testImplementation(libs.junit)
+//    testImplementation(libs.kotlinx.coroutines.test)
+//    testImplementation(libs.androidx.test.ext.junit)
+//    testImplementation(libs.androidx.test.ext.junit.ktx)
+//    testImplementation(libs.kotest.assertions.core)
+//    testImplementation(libs.mockk.test)
+//    testImplementation(libs.hilt.android.testing)
+//    kaptTest(libs.hilt.android.compiler)
+//
+//    // Instrumented tests
+//    androidTestImplementation platform(libs.androidx.compose.bom)
+//    androidTestImplementation(libs.androidx.test.core)
+//    androidTestImplementation(libs.androidx.test.ext.junit)
+//    androidTestImplementation(libs.androidx.test.runner)
+//    androidTestImplementation(libs.androidx.compose.ui.test.junit4)
+//    androidTestImplementation(libs.hilt.android.testing)
+//    kaptAndroidTest(libs.hilt.android.compiler)
+    // end copy Groovy
 }
